@@ -40,29 +40,29 @@ familia.cocacola = "refresco"
 
 function testObj(obj) {
     // el objeto con el que estaras trabajando es el que te pasan por parametro y es "obj"
-
+    
     //agrega la propiedad nombre y el valor "Nahir"(string)
-
+     obj.nombre = "Nahir";
     //agrega la propiedad edad y el valor 20(number)
-
+      obj.edad = 20;
     //agrega la propiedad hobbies con un valor object({})
-
+      obj.hobbies = {};
     //agrega la propiedad a el objeto hobbies  que se llame musica el valor "Rock"(string)
-
+      obj.hobbies.musica = "Rock";
     //agrega la propiedad a el objeto hobbies que se llame juego y el valor "Tenis"(string)
-
+      obj.hobbies.juego = "Tenis";
     //agrega la propiedad a el objeto obj enojos con el valor de objeto({})
-
+      obj.enojos = {};
     //agrega la propiedad a el objeto enojos llamada gritos y el valor sera true(bool)
-
+      obj.enojos.gritos = true;
     //agrega la propiedad a el objeto enojos llamada manzana que el valor sea false(bool)
-
+      obj.enojos.manzana = false;
     //agrega la propiedad al objeto hobbies que se llame juegosMesa y el valor será un objeto({})
-
+      obj.hobbies.juegosMesa = {};
     //agrega la propiedad al objeto jusgosMesa que se llame ajedrez y el valor será un objeto({}) 
-
+      obj.hobbies.juegosMesa.ajedrez = {};
     //agrega la propiedad al objeto ajedrez que llame piezas y el valor sera 64(number)
-
+      obj.hobbies.juegosMesa.ajedrez.piezas = 64;
 
 
 
