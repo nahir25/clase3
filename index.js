@@ -92,3 +92,5 @@ module.exports = {
     testObj
 }
 
+
+console.log("hola estoy en la carpeta principal")
