@@ -42,7 +42,7 @@ arr[1] = false
 arr[3] = 65
 //[ 13, false, true, 65, 'lo que quieras' ]
 
-arr[10] = 45
+// arr[10] = 45
 //[ 13, false, true, 65, 'lo que quieras', <5 empty items>, 45 ]
 
 /* 
@@ -60,7 +60,17 @@ arr[5] = false
 
 arr[5] = {
     nombre: "Alfred",
-    cursos: [1, 2, 3, 4]
+    cursos: [1, 2, 3, 4],
+    animes: {
+        shonen:{
+            naruto: ["naruto", "naruto shippuden"],
+            onePiece: ["onde Piece"],
+            fairytail: ["Fairy Tail"]
+        },
+        mistery: {
+            deathNote: ["vive L", "muere L"]
+        }
+    }
 }
 
 /* 
@@ -70,24 +80,28 @@ arr[5] = {
   true,
   65,
   'lo que quieras',
-  { nombre: 'Alfred', cursos: [ 1, 2, 3, 4 ] },
-  <4 empty items>,
-  45
+  {
+    nombre: 'Alfred',
+    cursos: [ 1, 2, 3, 4 ],
+    animes: { shonen: [Object], mistery: [Object] }
+  }
 ]
 */
-
-
-
-let element = arr[5]
-
-/*
-element = { nombre: 'Alfred', cursos: [ 1, 2, 3, 4 ] } 
-
-*/
-
-let respuestaNombre;
+function fn(arr){
+let naruto;//deberia ser "naruto shippuden"
+let death;//deberia de ser "muere L"
+//aqui escribe tu codigo:
 
 
 
 
-console.log(element)
+return [naruto, death]
+
+} 
+
+console.log(arr)
+
+module.exports ={
+    fn,
+    arr
+}
