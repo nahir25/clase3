@@ -60,7 +60,17 @@ arr[5] = false
 
 arr[5] = {
     nombre: "Alfred",
-    cursos: [1, 2, 3, 4]
+    cursos: [1, 2, 3, 4],
+    animes: {
+       shonen: {
+        naruto: ["naruto", "naruto shippuden"], 
+        onepiece: ["onepiece"],
+        fairytail: ["fairytail"]
+       },
+       misterio: {
+        deathnote: ["vive l", "muere l"]
+       }
+    }
 }
 
 /* 
@@ -86,8 +96,13 @@ element = { nombre: 'Alfred', cursos: [ 1, 2, 3, 4 ] }
 */
 
 let respuestaNombre;
+respuestaNombre = arr[5].nombre 
+
+let respuestascursos = arr[5].cursos
+
+let numero = arr[5].cursos[2]
 
 
 
 
-console.log(element)
+console.log(numero)
